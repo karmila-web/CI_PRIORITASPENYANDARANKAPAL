@@ -21,15 +21,59 @@
 </head>
 <body>
 <br>
-<h2>Daftar data kapal</h2>
-<hr><br>
-<table class="table table-bordered">
-    <tr>
-        <td>Nama Kapal</td>
-        <td>:</td>
-        <td><input type="text" name="nama_kapal"></td>
-    </tr>
-</table>
+<h2 align="center">Tambah Data Penyandaran Kapal</h2>
+<hr><br><br>
+<form method="post" action="<?= base_url(). 'controller_utama/aksitambahdatakapal'; ?>" >
+	<div class="container">
+        <div class="form-group row">
+            <label for="nama_kapal" class="col-sm-2 col-form-label">Nama Kapal</label>
+            <div class="col-sm-10">
+                <input name="nama_kapal" type="nama_kapal" class="form-control" id="nama_kapal" placeholder="Nama Kapal">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="jenis_kapal" class="col-sm-2 col-form-label">Jenis Kapal</label>
+            <div class="col-sm-10">            
+                <select class="form-control" id="sel1" name="jenis_kapal">
+                    <option>--Pilih Jenis Kapal--</option>
+                    <option value="PEMERINTAH">PEMERINTAH</option>
+                    <option value="KAPAL PERANG">KAPAL PERANG</option>
+                    <option value="KAPAL KUNJUNGAN">KAPAL KUNJUNGAN</option>
+                    <option value="KAPAL PERANG">LAINNYA</option>
+                </select>
+            </div>
+        </div>  
+        <div class="form-group row">
+            <label for="pengangkutan" class="col-sm-2 col-form-label">Pengangkutan</label>
+            <div class="col-sm-10">            
+                <select class="form-control" id="sel1" name="pengangkutan">
+                    <option>--Pilih Pengangkutan--</option>
+                    <option value="PENUMPANG">PENUMPANG</option>
+                    <option value="HEWAN">HEWAN</option>
+                    <option value="PETIKEMAS">PETIKEMAS</option>
+                </select>
+            </div>
+        </div>  
+        <div class="form-group row">
+            <label for="panjang_dermaga" class="col-sm-2 col-form-label">Panjang Dermaga</label>
+            <div class="col-sm-10">
+                <input name="panjang_dermaga" type="panjang_dermaga" class="form-control" id="panjang_dermaga" placeholder="Panjang Dermaga">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="LOA" class="col-sm-2 col-form-label">LOA</label>
+            <div class="col-sm-10">
+                <input name="LOA" type="LOA" class="form-control" id="LOA" placeholder="LOA">
+            </div>
+        </div>
+
+        <br><br>
+        <button type="submit" class="btn btn-outline-primary btn-block">Daftar</button>
+        <br><br>
+
+    </div>
+
+</form>
     
 </body>
 </html>

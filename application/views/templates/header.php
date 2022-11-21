@@ -40,19 +40,16 @@
         <div class="container">
           <ul class="list-inline info">
             <li>
-              <a href="#"><span class="fa fa-phone"></span> 1234 - 5678 - 9012</a>
+              <a href="#"><span class="fa fa-phone"></span> (0411) 3616549</a>
             </li>
-            <!-- <li>
-              <a href="#"><span class="fa fa-envelope"></span> support@Construct.com</a>
-            </li> -->
             <li>
-              <a href="#"><span class="fa fa-clock-o"></span> Mon - Sat 9:00 - 19:00</a>
+              <a href="#"><span class="fa fa-envelope"></span> info@pelindo.co.id</a>
             </li>
           </ul>
           <ul class="list-inline social_icon">
             <li>
               <!-- <a href=""><span class="fa fa-facebook"></span></a> -->
-              <a href=""> <b>Logout </b></a>
+              <a href=""> <i class="fa fa-sign-out"></i> <b>Logout </b></a>
             </li>
           </ul>
         </div>

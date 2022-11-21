@@ -27,7 +27,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakriteria">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kriteria Prioritas</h4>
+                        <h4>Perhitungan <br> Metode MFEP</h4>
                       </div>
                     </div>
                   </a>
@@ -36,7 +36,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakapalprioritas">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kapal Prioritas</h4>
+                        <h4>Data Kapal <br> Prioritas</h4>
                       </div>
                     </div>
                   </a>
@@ -82,7 +82,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakriteria">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kriteria Prioritas</h4>
+                        <h4>Perhitungan <br> Metode MFEP</h4>
                       </div>
                     </div>
                   </a>
@@ -91,7 +91,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakapalprioritas">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kapal Prioritas</h4>
+                        <h4>Data Kapal <br> Prioritas</h4>
                       </div>
                     </div>
                   </a>
@@ -137,7 +137,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakriteria">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kriteria Prioritas</h4>
+                        <h4>Perhitungan <br> Metode MFEP</h4>
                       </div>
                     </div>
                   </a>
@@ -146,7 +146,7 @@
                   <a href="<?= base_url() ?>controller_utama/v_datakapalprioritas">
                     <div class="testimoni">
                       <div class="testimoni-info">
-                        <h4>Data Kapal Prioritas</h4>
+                        <h4>Data Kapal <br> Prioritas</h4>
                       </div>
                     </div>
                   </a>
